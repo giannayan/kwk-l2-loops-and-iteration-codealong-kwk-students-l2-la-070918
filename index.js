@@ -8,12 +8,13 @@ function printBadges(names){
 }
 
 function tailsNeverFails() {
-return Math.random() >= 0.5;
-for (var count = 0; count <2 count++){
+  let count = 0
+  while (Math.random() >= 0.5) {
+for (var count = 0; count <2) { count++
+  }
+  return (`You got ${count} tails in a row!`)
 }
-while (()) {
-  console.log('You got '+ (count)+' tails in a row!');
-}
+
 
 
 
